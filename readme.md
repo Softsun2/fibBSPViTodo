@@ -12,8 +12,8 @@ okubo012
 My todo web app fibBSPViTodo uses binary space partitioning in a fibonacci layout to display tasks, similar to layouts of common unix window managers such as DWM, BSPWM, and I3. The user can interact with the todo tasks Via a few basic Vi keymaps/motions. I only implemented a few of the basic Vi motions as the string manipulation espicially from html text became rather tedious.
 
 
-## Argument!
-I usually don't do these sorts of things but I spent a lot of time on this project and I figured I'd at least try to make a case for why I shouldn't lose styling points. My goal with this was to implement a simple but effective UI inspired by lightweight developer tools. There's an entire class of programmers who *choose* development and productivity tools that decrease visual clutter and emphasize usage efficiency. The text content is readable and the layout is intuitive. Most terminals and ncurses apps are just as barebones in design. The styling, or lack thereof, will be familiar to WM/Vi users. A point made in lecture was that styling should be boring, familiar, this is the same thing just in a different context. Besides the UI not looking "pretty", my implementation of the fibonacci layout with flexbox, in my opinion, is not trivial. I understand if I lose points on styling I just figured there's no harm in sharing my thoughts.
+## Rationale
+My goal with this was to implement a simple but effective UI inspired by lightweight developer tools. There's a class of programmers who use development and productivity tools that decrease visual clutter and emphasize usage efficiency. I wanted to build a web app that would be familiar to this subset of developers.
 
 
 ## Usage
