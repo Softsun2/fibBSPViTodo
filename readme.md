@@ -80,14 +80,3 @@ Commands are entered in command mode on the Vi command line (bottom of the edito
 * `d`: Same as `delete`.
 * `filter`: Opens the filter editor.
 * `f`: Same as `filter`.
-
-
-## Extension
-I ran out of time implementing this. I have other stuff I needed to do. Here's a list of what I'd expand upon if I had the time.
-  * Padding?
-    * I've never been good at css, I couldn't figure out how to offset positioning by padding/margins so I went with no padding. It sort of fits the minimalist look but it's not proper.
-  * Support multiline field content.
-  * Add a landing page.
-  * In browser how to.
-  * Implement more Vi motions.
-  
