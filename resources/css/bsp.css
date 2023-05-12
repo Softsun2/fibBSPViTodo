@@ -1,0 +1,39 @@
+#c1 {
+  display: flex;
+  flex-direction: row;
+}
+
+#d1 {
+  height: 100vh;
+  width: 50vw;
+}
+
+#c2 {
+  display: flex;
+  flex-direction: column;
+}
+
+#d2 {
+  height: 50vh;
+  width: 50vw;
+}
+
+#c3 {
+  display: flex;
+  flex-direction: row;
+}
+
+#d3 {
+  height: 50vh;
+  width: 25vw;
+}
+
+#c4 {
+  display: flex;
+  flex-direction: column;
+}
+
+#d4 {
+  height: 50vh;
+  width: 25vw;
+}

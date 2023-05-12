@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'unscii';
+  src: url('../font/unscii-16.otf');
+}
+
+@keyframes blink {
+  100% {
+    color: white;
+    background-color: black;
+  }
+  50% {
+    color: white;
+    background-color: black;
+  }
+  49% {
+    color: black;
+    background-color: red;
+  }
+  0% {
+    color: black;
+    background-color: red;
+  }
+}
+
+#theresNoEnd {
+  white-space: pre;
+  text-align: center;
+  font-size: 0.666rem;
+  padding-top: 25vh;
+  padding-left: 25vw;
+  width: 50vw;
+}
+
+#viCmdLine {
+  margin-top: auto;
+}
+
+#title {
+  font-weight: bold;
+}
+
+#description {
+  font-style: italic;
+}
+
+body {
+  font-family: 'unscii';
+  margin: 0px;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+}
+
+[contenteditable] {
+  pointer-events: none;             /* NO MOUSE ALLOWED!!! */
+  outline: 0px solid transparent;
+}
+
+div.editor {
+  display: flex;
+  flex-direction: column;
+  padding: 0.25em;
+  background-color: black;
+  width: 45vw;
+  font-size: 1rem;
+  box-sizing: border-box;
+  border: 0.1px solid white;
+}
+
+#nCursor {
+  color: black;
+  background-color: red;
+  animation: blink 1s linear infinite;
+}
+
+.taskField {
+  margin: 0px;
+}
